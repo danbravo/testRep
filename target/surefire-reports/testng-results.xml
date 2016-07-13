@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="25" started-at="2016-06-18T17:00:56Z" finished-at="2016-06-18T17:00:56Z">
+    <groups>
+      <group name="functional">
+        <method signature="SomeTest.test1(java.lang.String)[pri:0, instance:tests.TestDir.SomeTest@3f3afe78]" name="test1" class="tests.TestDir.SomeTest"/>
+        <method signature="SomeTest.test2(java.lang.String)[pri:0, instance:tests.TestDir.SomeTest@3f3afe78]" name="test2" class="tests.TestDir.SomeTest"/>
+      </group> <!-- functional -->
+      <group name="integration">
+        <method signature="SomeTest.anotherTest(java.lang.String)[pri:0, instance:tests.TestDir.SomeTest@3f3afe78]" name="anotherTest" class="tests.TestDir.SomeTest"/>
+        <method signature="SomeTest.test2(java.lang.String)[pri:0, instance:tests.TestDir.SomeTest@3f3afe78]" name="test2" class="tests.TestDir.SomeTest"/>
+      </group> <!-- integration -->
+    </groups>
+    <test name="Surefire test" duration-ms="25" started-at="2016-06-18T17:00:56Z" finished-at="2016-06-18T17:00:56Z">
+      <class name="tests.TestDir.SomeTest">
+        <test-method status="PASS" signature="anotherTest(java.lang.String)[pri:0, instance:tests.TestDir.SomeTest@3f3afe78]" name="anotherTest" duration-ms="8" started-at="2016-06-18T20:00:56Z" finished-at="2016-06-18T20:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SHIIIIIT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherTest -->
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:tests.TestDir.SomeTest@3f3afe78]" name="test1" duration-ms="0" started-at="2016-06-18T20:00:56Z" finished-at="2016-06-18T20:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FFFUUUCK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:tests.TestDir.SomeTest@3f3afe78]" name="test2" duration-ms="0" started-at="2016-06-18T20:00:56Z" finished-at="2016-06-18T20:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FFFUUUCK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- tests.TestDir.SomeTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
